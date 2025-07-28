@@ -7,16 +7,19 @@ A modern career and job portal web application built with PHP and MySQL. It enab
 ## 📌 Features
 
 ### 👤 User Roles
+
 - **Employee (Job Seeker)**: Browse jobs, apply, manage profile.
 - **Employer (Recruiter)**: Post jobs, review applications.
 - **Admin**: Manage users, monitor system usage.
 
 ### 🔑 Authentication
+
 - Login / Signup with email & username
 - Forgot password flow (coming soon)
 - Session management and access control
 
 ### 🧰 Core Modules
+
 - Job Listings by category
 - Job Application tracking
 - User Profile Management
@@ -27,29 +30,30 @@ A modern career and job portal web application built with PHP and MySQL. It enab
 
 ## 🛠️ Tech Stack
 
-| Tech          | Description                         |
-|---------------|-------------------------------------|
-| PHP (v7.4+)    | Server-side scripting              |
-| MySQL         | Relational database                |
-| PDO           | Secure database abstraction        |
-| HTML5/CSS3    | Markup and styling                 |
-| Bulma CSS     | Responsive UI framework            |
-| FontAwesome   | Icons                              |
-| JS (minimal)  | Basic interactivity                |
+| Tech         | Description                 |
+| ------------ | --------------------------- |
+| PHP (v7.4+)  | Server-side scripting       |
+| MySQL        | Relational database         |
+| PDO          | Secure database abstraction |
+| HTML5/CSS3   | Markup and styling          |
+| Bulma CSS    | Responsive UI framework     |
+| FontAwesome  | Icons                       |
+| JS (minimal) | Basic interactivity         |
 
 ---
 
 ## 🚀 Getting Started
 
 ### 🔧 Prerequisites
+
 - [XAMPP / LAMP / MAMP](https://www.apachefriends.org/index.html)
 - PHP 7.4+
 - MySQL 5.7+
 - Git
 
 ### 📥 Installation
-![alt text](image.png)
-![alt text](image-2.png)
+
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/career-portal.git
@@ -77,21 +81,23 @@ career-portal/
 └── README.md
 
 
+```
 👀 Screenshots:
 
 Dashboard
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05d1f222-2e50-412a-bb5f-8f8e9ab79d36" />
-<img width="1920" height="1080" alt="image-1" src="https://github.com/user-attachments/assets/8811a732-301c-461f-abaa-d54731a76c14" />
-
+![alt text](image.png)
+![alt text](image-2.png)
 
 Login Page
-<img width="1920" height="1080" alt="image-2" src="https://github.com/user-attachments/assets/1219abbe-eb4b-44ab-aa9a-dd1f106fc504" />
+![alt text](image-1.png)
+
 
 Job Dashboard
-<img width="1920" height="1080" alt="image-3" src="https://github.com/user-attachments/assets/a89e6b37-0290-49d2-b237-9a7fa8a7d268" />
+![alt text](image-3.png)
 
 Applied Jobs
-<img width="1920" height="1080" alt="image-4" src="https://github.com/user-attachments/assets/33456f5a-7068-43f6-af52-d419c0c97753" />
+![alt text](image-4.png)
+```bash
 
 
 🛡️ Security Considerations:
@@ -115,33 +121,31 @@ Password: hellogs@1234
  Email verification system
  Pagination for job listings
 
+🤝 Contributors
+Name	Roll No
+Bhargav Buddh	21
+Gautam Suthar	38
+Shubh Ravat	114
 
- 🤝 Contributing:
+📜 License
+This project is licensed under the MIT License.
+© 2025 Bhargav Buddh, Gautam Suthar, Shubh Ravat
 
-Fork the repository
-Create your feature branch (git checkout -b feature/thing)
-Commit your changes (git commit -am 'Add feature')
-Push to the branch (git push origin feature/thing)
-Create a Pull Request
-
-
-📜 License:
-
-This project is open-source and available under the MIT License.
-
-
-🙋‍♂️ Author:
-
-Made with ❤️ by Gautam Suthar
+🙋‍♂️ Author
+Made with ❤️ by the EduCareer Team
+For educational purposes and portfolio projects.
 
 ---
 
-## 🧷 Optional Files to Add
 
-- `screenshots/login.png`, `screenshots/dashboard.png` – take screenshots from your browser and save them inside a `screenshots` folder.
-- `LICENSE` – add an MIT license or another as per your preference.
-- `.gitignore` – to ignore `vendor`, `.vscode`, etc.
+You can copy and paste this directly into your `README.md` file. Make sure to:
+
+- Replace `YOUR_USERNAME` in the GitHub clone link.
+- Ensure the screenshots (`image.png`, `image-1.png`, etc.) exist in the same folder.
+
+Would you like me to help you upload this directly into your repo or generate a `.zip` with the structure?
 
 ---
 
 Let me know if you'd like me to prepare a working `README.md` file or commit it to your project!
+```
