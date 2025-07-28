@@ -48,7 +48,8 @@ A modern career and job portal web application built with PHP and MySQL. It enab
 - Git
 
 ### 📥 Installation
-
+![alt text](image.png)
+![alt text](image-2.png)
 ```bash
 # 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/career-portal.git
