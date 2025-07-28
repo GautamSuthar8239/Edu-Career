@@ -79,18 +79,19 @@ career-portal/
 👀 Screenshots:
 
 Dashboard
-![alt text](image.png)
-![alt text](image-2.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/05d1f222-2e50-412a-bb5f-8f8e9ab79d36" />
+<img width="1920" height="1080" alt="image-1" src="https://github.com/user-attachments/assets/8811a732-301c-461f-abaa-d54731a76c14" />
+
 
 Login Page
-![alt text](image-1.png)
-
+<img width="1920" height="1080" alt="image-2" src="https://github.com/user-attachments/assets/1219abbe-eb4b-44ab-aa9a-dd1f106fc504" />
 
 Job Dashboard
-![alt text](image-3.png)
+<img width="1920" height="1080" alt="image-3" src="https://github.com/user-attachments/assets/a89e6b37-0290-49d2-b237-9a7fa8a7d268" />
 
 Applied Jobs
-![alt text](image-4.png)
+<img width="1920" height="1080" alt="image-4" src="https://github.com/user-attachments/assets/33456f5a-7068-43f6-af52-d419c0c97753" />
+
 
 🛡️ Security Considerations:
 
