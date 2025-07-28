@@ -20,7 +20,8 @@ VALUES ('gordon', 1, 'gordon@comp353.com', 'gordon', '2020-01-15', TRUE, 0, TRUE
        ('ariana', 4, 'ariana@comp353.com', 'ariana', '2019-06-15', FALSE, 10, TRUE),
        ('joe', 4, 'joe@comp353.com', 'joe', '2020-01-14', TRUE, 0, TRUE),
        ('tyson', 2, 'tyson@comp353.com', 'tyson', '2020-03-15', TRUE, -10, TRUE),
-       ('chris', 5, 'chris@comp353.com', 'chris', '2020-08-07 01:43:56', TRUE, 0, TRUE);
+       ('chris', 5, 'chris@comp353.com', 'chris', '2020-08-07 01:43:56', TRUE, 0, TRUE),
+       ('hellouser', 5, 'hellouser@comp353.com', 'hellouser', '2020-08-07 01:43:56', TRUE, 0, TRUE);
 
 INSERT INTO Job_Categories_List (jobCategoriesID, categoryName)
 VALUES (8, 'Angular'),

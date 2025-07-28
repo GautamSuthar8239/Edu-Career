@@ -1,60 +1,54 @@
-## Contributions
-**Arunraj Adlee**
+🙌 Contributions
 
-* E/R Diagram
-* Relational Database Schema
-* Normalization Process Details
-* SQL queries + Sample test data
+##Gautam Suthar
 
-**Gordon Pham-Nguyen**
-
-* Setting up the project structure (Organization)
-* SQL declarations and scripts
-* Web Interface (3/4)
-* Additional features
-
-**Leo Jr Silao**
-
-* E/R Diagram
-* Relational Database Schema
-* Normalization Process Details
-* SQL queries + Sample test data
-
-**Tiffany Zeng**
-
-* Web Interface (1/4)
-* SQL scripts
-* Report Content
-
-## Report
-The files currently attached in this **report** are: 
-
-* E/R Diagram
-* Relational Database Schema
-* Normalization Process Details
-* SQL queries + 5 tuples of each query result
-
-For the files related to our **Web Application**, please refer to the following directories in the ZIP folder: 
- 
-* <ins>SQL Declarations</ins>: sql-declarations/
-* <ins>Relation Instances</ins>: sql-declarations/1-tables.sql 
-* <ins>SQL scripts for the queries and transactions</ins>: web-application/model
-<br  /> * Each of these php files represent an entity of the database; they are functions to access the database. 
+Refactored and restructured the full project
+Implemented backend authentication and session management
+Improved UI for Job Categories, Applications, Reports, and Profiles
+Enhanced SQL scripts and relational mappings
+Bug fixes and performance optimizations
 
 
-## Important notes from our team
-1.  We have decided to rename **Categories** to **Plans** to denote the Basic/Prime/Gold pricing as it made more sense to us and creates less confusion with Job Categories.
+##Bhargav Bhuddh
 
-2.  We interpreted **Employer Category** as the field of work that a certain employer works in. e.g., construction, software development, marketing, etc.
+Assisted in project setup and testing
+UI refinements and layout fixes
+Helped in debugging and validations
 
-3. We decided to treat **Job Categories** as tags (like Instagram # tags), meaning an employer can choose any category that the job posting will belong in by typing any string he/she desires when they are creating a new job posting.
+##Shubh Ravat
 
-4. We interpreted that **Administrators** do not have payment methods, as their function in the structure is to maintain users and oversee the system as a whole, and therefore do not have any balance associated to their accounts.
+Worked on SQL queries and schema design
+Supported integration of user features
+Helped implement additional features and session handling
 
-5. The following requirements:**"[Users] Should be able to maintain new users and update the user table."** is interpreted as employees can create or delete their accounts and are able to update their account information.
+📄 Report Contents
+The following items are included in the report folder:
 
-6. The following requirement: **"Employer dashboard should have a contact us section to help user with contact information/helpline."** is interpreted as displaying the contact information of the Employer whom have created the job posting (it is displayed as a button; onClick will display their contact info) in the Employee's Jobs' postings table.
+E/R Diagram
+Relational Database Schema
+Normalization Process
+SQL Queries with 5 sample result tuples each
 
 
-## Additional Features
-* If a user whose logged in does not have any activity (they do not click anything) within 30 minutes, they are automatically logged out.
+##For Web Application-related code:
+
+SQL Declarations: sql-declarations/
+Relation Instances: sql-declarations/1-tables.sql
+Entity Access Scripts: web-application/model/
+Each PHP file represents a DB entity and provides data access functions.
+
+💡 Project Design Notes
+"Categories" renamed to "Plans" – to better reflect the job pricing tiers: Basic, Prime, Gold.
+Employer Category – interpreted as the industry type (e.g. IT, Marketing, etc.).
+Job Categories as Tags – jobs can be tagged freely by the employer (like hashtags).
+Administrators have no payment method – since they’re only system overseers.
+Users can manage themselves – employees can register, update, and delete their own accounts.
+Employer contact info – displayed via a button in job postings for easy access.
+
+🌟 Additional Features:
+
+🔒 Auto Logout: Users are automatically logged out after 30 minutes of inactivity.
+📊 Role-based Dashboards: Each user (Admin, Employee, Employer) sees tailored content.
+🧭 Navigation Tabs: Active tab highlighting and balance check gating.
+⚙️ MVC Structure: Clear separation between controller, model, and views.
+📁 Extensible Architecture: Easy to plug in more features or migrate to frameworks like Laravel.
